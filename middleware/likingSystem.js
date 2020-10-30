@@ -29,7 +29,6 @@ module.exports = (req, res, next) => {
         }
         req.body.sauce = sauce;
         req.body.message = message
-        next();
     })
     .catch(error => res.status(400).json({ error }));
 }
