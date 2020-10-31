@@ -23,6 +23,7 @@ To use the API you will need a front-end application. You can get it from Github
 On your command line / shell, from the root folder types
 
 ```
+npm install
 node server
 ```
 
